@@ -61,6 +61,8 @@ body {
     color: #fff;
     font-family: 'NanumMyeongjo';
     font-weight: normal;
+    min-width: 1920px;
+    width: 100%;
 }
 
 .main_visual {
