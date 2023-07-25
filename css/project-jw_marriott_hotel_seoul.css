@@ -68,6 +68,7 @@ body {
 .main_visual {
     width: 1920px;
     height: 960px;
+    position: relative;
     /* background: url('../img/main_visual_opacity.jpg') center / cover no-repeat; */
 }
 .main_visual video {
