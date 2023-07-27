@@ -62,25 +62,23 @@ body {
     font-family: 'NanumMyeongjo';
     font-weight: normal;
     min-width: 1920px;
-    width: 1920px;
+    width: 100%;
 }
 
 .main_visual {
     width: 1920px;
     height: 960px;
     /* background: url('../img/main_visual_opacity.jpg') center / cover no-repeat; */
+    position: relative;
 }
 .main_visual video {
     width: 100%;
-    height: 960px;
+    height: 100%;
     object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 .main_visual .video_bg {
     width: 100%;
-    height: 960px;
+    height: 100%;
     background-color: hsla(0, 0%, 0%, 0.2);
     position: absolute;
     top: 0;
@@ -89,7 +87,9 @@ body {
 
 .main_visual header {
     width: 100%;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: 1;
 }
 .main_visual header .header_top {
@@ -155,7 +155,7 @@ body {
     margin: 0 auto;
     position: relative;
 }
-.main_visual header .header_bottom .inner .open {
+.main_visual header .header_bottom .inner .menu_open {
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -164,7 +164,7 @@ body {
     left: 0;
     transform: translateY(-50%);
 }
-.main_visual header .header_bottom .inner .open img {
+.main_visual header .header_bottom .inner .menu_open img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -207,7 +207,10 @@ body {
 .main_visual .cont01 {
     width: 1440px;
     margin: 0 auto;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .main_visual .cont01 .text_main {
     text-align: center;
