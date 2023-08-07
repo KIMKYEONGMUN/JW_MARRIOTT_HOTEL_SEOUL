@@ -2,10 +2,10 @@
 
 @font-face {
     font-family: 'NanumMyeongjo';
-    src: url('css/font/NanumMyeongjo.eot');
-    src: url('css/font/NanumMyeongjo.eot?#iefix') format('embedded-opentype'),
-        url('css/font/NanumMyeongjo.woff2') format('woff2'),
-        url('css/font/NanumMyeongjo.woff') format('woff');
+    src: url('font/NanumMyeongjo.eot');
+    src: url('font/NanumMyeongjo.eot?#iefix') format('embedded-opentype'),
+        url('font/NanumMyeongjo.woff2') format('woff2'),
+        url('font/NanumMyeongjo.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -13,10 +13,10 @@
 
 @font-face {
     font-family: 'NanumMyeongjo';
-    src: url('css/font/NanumMyeongjo.eot');
-    src: url('css/font/NanumMyeongjo.eot?#iefix') format('embedded-opentype'),
-        url('css/font/NanumMyeongjo.woff2') format('woff2'),
-        url('css/font/NanumMyeongjo.woff') format('woff');
+    src: url('font/NanumMyeongjo.eot');
+    src: url('font/NanumMyeongjo.eot?#iefix') format('embedded-opentype'),
+        url('font/NanumMyeongjo.woff2') format('woff2'),
+        url('font/NanumMyeongjo.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -24,10 +24,10 @@
 
 @font-face {
     font-family: 'NanumMyeongjo';
-    src: url('css/font/NanumMyeongjoBold.eot');
-    src: url('css/font/NanumMyeongjoBold.eot?#iefix') format('embedded-opentype'),
-        url('css/font/NanumMyeongjoBold.woff2') format('woff2'),
-        url('css/font/NanumMyeongjoBold.woff') format('woff');
+    src: url('font/NanumMyeongjoBold.eot');
+    src: url('font/NanumMyeongjoBold.eot?#iefix') format('embedded-opentype'),
+        url('font/NanumMyeongjoBold.woff2') format('woff2'),
+        url('font/NanumMyeongjoBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -35,10 +35,10 @@
 
 @font-face {
     font-family: 'NanumMyeongjoExtraBold';
-    src: url('css/font/NanumMyeongjoExtraBold.eot');
-    src: url('css/font/NanumMyeongjoExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('css/font/NanumMyeongjoExtraBold.woff2') format('woff2'),
-        url('css/font/NanumMyeongjoExtraBold.woff') format('woff');
+    src: url('font/NanumMyeongjoExtraBold.eot');
+    src: url('font/NanumMyeongjoExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('font/NanumMyeongjoExtraBold.woff2') format('woff2'),
+        url('font/NanumMyeongjoExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
