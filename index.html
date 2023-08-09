@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>프로젝트_JW 메리어트 호텔 서울</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="css/project-jw_marriott_hotel_seoul.css" />
     <script src="lib/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
-        $(function(){
-            $('.main_visual header .header_bottom .inner .menu_open').click(function(){
+        $(function () {
+            $('.main_visual header .header_bottom .inner .menu_open').click(function () {
                 $('.main_visual .menu_depth').stop().slideToggle(1000);
             });
+
+            $('.list').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true
+            });
+
         });
     </script>
 </head>
+
 <body>
     <section class="main_visual">
         <!-- css background 삽입 --> <!-- video 대체 -->
@@ -114,12 +126,12 @@
                 <h2>JW 메리어트 호텔 서울에 오신 것을 환영합니다</h2>
                 <p>서울 5성급 특급 호텔에 걸맞은 품격을 누려보세요</p>
             </div> <!-- .text_main end -->
-            <a href="#" class="left">
+            <div class="left">
                 <img src="img/icon_left2.png" alt="버튼_왼쪽" />
-            </a> <!-- .left end -->
-            <a href="#" class="right">
+            </div> <!-- .left end -->
+            <div class="right">
                 <img src="img/icon_right2.png" alt="버튼_오른쪽" />
-            </a> <!-- .right end -->
+            </div> <!-- .right end -->
         </div> <!-- .cont01 end -->
 
     </section> <!-- .main_visual end -->
@@ -129,85 +141,92 @@
 
 
     <section class="section01">
-            <div class="list_left" data-aos="fade-up">
-                <div class="cont01">
-                    <ul>
-                        <li>
-                            <div class="title">
-                                <h3>소 식</h3>
-                                <p>유명 관광지와 가까운 강남 소재 JW 메리어트 호텔 서울은 5성급 호텔 <br />경험을 제공하는 특급 호텔입니다</p>
-                                <a href="#" class="left">
-                                    <img src="img/icon_left2.png" alt="버튼_왼쪽" />
-                                </a> <!-- .left end -->
-                                <a href="#" class="right">
-                                    <img src="img/icon_right2.png" alt="버튼_오른쪽" />
-                                </a> <!-- .right end -->
-                            </div> <!-- .title end -->
-                        </li>
+        <div class="list_left" data-aos="fade-up">
+            <div class="cont02">
+                <div class="title">
+                    <h3>소 식</h3>
+                    <p>유명 관광지와 가까운 강남 소재 JW 메리어트 호텔 서울은 5성급 호텔 <br />경험을 제공하는 특급 호텔입니다</p>
+                </div> <!-- .title end -->
 
-                        <li>
-                            <a href="#" class="item">
-                                <h4>호텔 운영 안내</h4>
-                                <img src="img/item01.webp" alt="호텔운영안내">
-                            </a> <!-- .item end 1 -->
-                        </li>
+                <ul class="list">
+                    <li class="item">
+                        <a href="#">
+                            <h4>호텔 운영 안내</h4>
+                            <img src="img/item01.webp" alt="호텔운영안내" />
+                        </a>
+                    </li> <!-- .item end 1 -->
 
-                        <li>
-                            <a href="#" class="item">
-                                <h4>트립어드바이저<br />2023 트래블러스 초이스 어워드</h4>
-                                <img src="img/item02.webp" alt="트립어드바이저">
-                            </a> <!-- .item end 2 -->
-                        </li>
+                    <li class="item">
+                        <a href="#">
+                            <h4>트립어드바이저<br />2023 트래블러스 초이스 어워드</h4>
+                            <img src="img/item02.webp" alt="트립어드바이저" />
+                        </a>
+                    </li> <!-- .item end 2 -->
 
-                        <li>
-                            <a href="#" class="item">
-                                <h4>모보 바 야외 테라스</h4>
-                                <img src="img/item03.jpg" alt="모보 바">
-                            </a> <!-- .item end 3 -->
-                        </li>
+                    <li class="item">
+                        <a href="#">
+                            <h4>모보 바 야외 테라스</h4>
+                            <img src="img/item03.jpg" alt="모보 바" />
+                        </a>
+                    </li> <!-- .item end 3 -->
 
-                    </ul>
-                </div> <!-- .cont01 end -->
-            </div> <!-- .list_left end -->
+                </ul> <!-- .list end -->
+
+            </div> <!-- .cont01 end -->
+        </div> <!-- .list_left end -->
 
         <div class="list_right" data-aos="fade-up">
-            <div class="cont01">
-                <ul>
-                    <li>
-                        <a href="#" class="item">
+            <div class="cont02">
+                <ul class="list">
+                    <li class="item">
+                        <a href="#">
                             <h4>나이스 투 미츄 베이비 패키지</h4>
-                            <img src="img/item04.jpeg" alt="베이비패키지">
-                        </a> <!-- .item end 1 -->
-                    </li>
+                            <img src="img/item04.jpeg" alt="베이비패키지" />
+                        </a>
+                    </li> <!-- .item end 1 -->
 
-                    <li>
-                        <a href="#" class="item">
+                    <li class="item">
+                        <a href="#">
                             <h4>섬머 쉴드 패키지</h4>
-                            <img src="img/item05.jpeg" alt="섬머쉴드패키지">
-                        </a> <!-- .item end 2 -->
-                    </li>
+                            <img src="img/item05.jpeg" alt="섬머쉴드패키지" />
+                        </a>
+                    </li> <!-- .item end 2 -->
 
-                    <li>
-                        <a href="#" class="item">
+                    <li class="item">
+                        <a href="#">
                             <h4>포켓몬 어드벤처 엣 JW 패키지</h4>
-                            <img src="img/item06.jpeg" alt="포켓몬패키지">
-                        </a> <!-- .item end 3 -->
-                    </li>
+                            <img src="img/item06.jpeg" alt="포켓몬패키지" />
+                        </a>
+                    </li> <!-- .item end 3 -->
 
-                    <li>
-                        <div class="title">
-                            <h3>프로모션 · 패키지</h3>
-                            <p>JW 메리어트 호텔 서울이 준비한 <br />다양한 프로모션과 이벤트들을 <br />만나보세요</p>
-                            <a href="#" class="left">
-                                <img src="img/icon_left2.png" alt="버튼_왼쪽" />
-                            </a> <!-- .left end -->
-                            <a href="#" class="right">
-                                <img src="img/icon_right2.png" alt="버튼_오른쪽" />
-                            </a> <!-- .right end -->
-                        </div> <!-- .title end -->
-                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <h4>조식 포함 패키지</h4>
+                            <img src="img/breakfast.jpg" alt="조식패키지" />
+                        </a>
+                    </li> <!-- .item end 4 -->
 
-                </ul>
+                    <li class="item">
+                        <a href="#">
+                            <h4>마인드, 바디 앤 웰니스 패키지</h4>
+                            <img src="img/yoga.avif" alt="바디패키지" />
+                        </a>
+                    </li> <!-- .item end 5 -->
+
+                    <li class="item">
+                        <a href="#">
+                            <h4>윙크 패밀리 바이 JW 패키지</h4>
+                            <img src="img/family.avif" alt="패밀리패키지" />
+                        </a>
+                    </li> <!-- .item end 6 -->
+
+                </ul> <!-- .list end -->
+
+                <div class="title">
+                    <h3>프로모션 · 패키지</h3>
+                    <p>JW 메리어트 호텔 서울이 준비한 <br />다양한 프로모션과 이벤트들을 <br />만나보세요</p>
+                </div> <!-- .title end -->
+
             </div> <!-- .cont01 end -->
         </div> <!-- .list_right end -->
     </section> <!-- .section01 end -->
@@ -218,84 +237,140 @@
 
     <section class="section02">
         <div class="list_left" data-aos="fade-up">
-            <div class="cont01">
-                <ul>
-                    <li>
-                        <div class="title">
-                            <h3>객실과 스위트</h3>
-                            <p>JW 메리어트 호텔 서울은 <br />펜트하우스 2실, 스위트 32실 포함 총 379실을 갖추고 있습니다</p>
-                            <a href="#" class="left">
-                                <img src="img/icon_left2.png" alt="버튼_왼쪽" />
-                            </a> <!-- .left end -->
-                            <a href="#" class="right">
-                                <img src="img/icon_right2.png" alt="버튼_오른쪽" />
-                            </a> <!-- .right end -->
-                        </div> <!-- .title end -->
-                    </li>
+            <div class="cont02">
+                <div class="title">
+                    <h3>객실과 스위트</h3>
+                    <p>JW 메리어트 호텔 서울은 <br />펜트하우스 2실, 스위트 32실 포함 총 379실을 갖추고 있습니다</p>
+                </div> <!-- .title end -->
 
-                    <li>
-                        <a href="#" class="item">
+                <ul class="list">
+                    <li class="item">
+                        <a href="#">
                             <h4>게스트룸<br />1 킹베드, 도심 전망</h4>
-                            <img src="img/item07.webp" alt="객실1">
-                        </a> <!-- .item end 1 -->
-                    </li>
+                            <img src="img/item07.webp" alt="객실1" />
+                        </a>
+                    </li> <!-- .item end 1 -->
 
-                    <li>
-                        <a href="#" class="item">
-                            <h4>게스트룸<br />2 킹베드, 도심 전망</h4>
-                            <img src="img/item08.webp" alt="객실2">
-                        </a> <!-- .item end 2 -->
-                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <h4>게스트룸<br />2 더블베드, 도심 전망</h4>
+                            <img src="img/item08.webp" alt="객실2" />
+                        </a>
+                    </li> <!-- .item end 2 -->
 
-                    <li>
-                        <a href="#" class="item">
+                    <li class="item">
+                        <a href="#">
                             <h4>이그제큐티브 라운지 이용<br />1 베드룸스위트, 1 킹베드, 강 전망</h4>
-                            <img src="img/item09.webp" alt="객실3">
-                        </a> <!-- .item end 3 -->
-                    </li>
+                            <img src="img/item09.webp" alt="객실3" />
+                        </a>
+                    </li> <!-- .item end 3 -->
 
-                </ul>
+                    <li class="item">
+                        <a href="#">
+                            <h4>이그제큐티브 라운지 이용, 게스트룸<br />1 킹베드, 도심 전망</h4>
+                            <img src="img/item07.webp" alt="객실4" />
+                        </a>
+                    </li> <!-- .item end 4 -->
+
+                    <li class="item">
+                        <a href="#">
+                            <h4>이그제큐티브 라운지 이용, 게스트룸<br />2 더블베드, 도심 전망</h4>
+                            <img src="img/item08.webp" alt="객실5" />
+                        </a>
+                    </li> <!-- .item end 5 -->
+
+                    <li class="item">
+                        <a href="#">
+                            <h4>이그제큐티브 라운지 이용<br />1 베드룸대형스위트, 1 킹베드, 강 전망</h4>
+                            <img src="img/room.webp" alt="객실6" />
+                        </a>
+                    </li> <!-- .item end 6 -->
+
+                    <li class="item">
+                        <a href="#">
+                            <h4>이그제큐티브 라운지 이용<br />1 베드룸대형스위트, 2 더블베드, 강 전망</h4>
+                            <img src="img/room.webp" alt="객실7" />
+                        </a>
+                    </li> <!-- .item end 7 -->
+
+                    <li class="item">
+                        <a href="#">
+                            <h4>이그제큐티브 라운지 이용<br />1 베드룸이그제큐티브스위트, 1 킹베드</h4>
+                            <img src="img/room2.webp" alt="객실8" />
+                        </a>
+                    </li> <!-- .item end 8 -->
+
+                    <li class="item">
+                        <a href="#">
+                            <h4>비즈니스 스위트 킹<br />이그제큐티브 라운지 이용, 1 베드룸스위트</h4>
+                            <img src="img/item09.webp" alt="객실9" />
+                        </a>
+                    </li> <!-- .item end 9 -->
+
+                </ul><!-- .list end -->
+
             </div> <!-- .cont01 end -->
         </div> <!-- .list_left end -->
 
         <div class="list_right" data-aos="fade-up">
-            <div class="cont01">
-                <ul>
-                    <li>
-                        <a href="#" class="item">
+            <div class="cont02">
+                <ul class="list">
+                    <li class="item">
+                        <a href="#">
                             <h4>FLAVORS</h4>
-                            <img src="img/item10.webp" alt="플레이버즈">
-                        </a> <!-- .item end 1 -->
-                    </li>
+                            <img src="img/item10.webp" alt="플레이버즈" />
+                        </a>
+                    </li> <!-- .item end 1 -->
 
-                    <li>
-                        <a href="#" class="item">
+                    <li class="item">
+                        <a href="#">
                             <h4>CAFE ONE</h4>
-                            <img src="img/item11.webp" alt="카페 원">
-                        </a> <!-- .item end 2 -->
-                    </li>
+                            <img src="img/item11.webp" alt="카페 원" />
+                        </a>
+                    </li> <!-- .item end 2 -->
 
-                    <li>
-                        <a href="#" class="item">
+                    <li class="item">
+                        <a href="#">
                             <h4>TAMAYURA</h4>
-                            <img src="img/item12.jpeg" alt="타마유라">
-                        </a> <!-- .item end 3 -->
-                    </li>
+                            <img src="img/item12.jpeg" alt="타마유라" />
+                        </a>
+                    </li> <!-- .item end 3 -->
 
-                    <li>
-                        <div class="title">
-                            <h3>고급 다이닝 레스토랑</h3>
-                            <p>세련되고 황홀한 고급 다이닝의 <br />세계를 경험해 보세요</p>
-                            <a href="#" class="left">
-                                <img src="img/icon_left2.png" alt="버튼_왼쪽" />
-                            </a> <!-- .left end -->
-                            <a href="#" class="right">
-                                <img src="img/icon_right2.png" alt="버튼_오른쪽" />
-                            </a> <!-- .right end -->
-                        </div> <!-- .title end -->
-                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <h4>PATISSERIE</h4>
+                            <img src="img/patisserie.webp" alt="파티세리" />
+                        </a>
+                    </li> <!-- .item end 4 -->
 
-                </ul>
+                    <li class="item">
+                        <a href="#">
+                            <h4>THE MARGAUX GRILL</h4>
+                            <img src="img/the_margaux_grill.webp" alt="더 마고 그릴" />
+                        </a>
+                    </li> <!-- .item end 5 -->
+
+                    <li class="item">
+                        <a href="#">
+                            <h4>THE LOUNGE</h4>
+                            <img src="img/the_lounge.webp" alt="더 라운지" />
+                        </a>
+                    </li> <!-- .item end 6 -->
+
+                    <li class="item">
+                        <a href="#">
+                            <h4>MOBO BAR</h4>
+                            <img src="img/mobo_bar.jpg" alt="모보 바" />
+                        </a>
+                    </li> <!-- .item end 7 -->
+
+                </ul> <!-- .list end -->
+
+                <div class="title">
+                    <h3>고급 다이닝 레스토랑</h3>
+                    <p>세련되고 황홀한 고급 다이닝의 <br />세계를 경험해 보세요</p>
+                </div> <!-- .title end -->
+
             </div> <!-- .cont01 end -->
         </div> <!-- .list_right end -->
     </section> <!-- .section02 end -->
@@ -344,4 +419,5 @@
     </script>
 
 </body>
+
 </html>
