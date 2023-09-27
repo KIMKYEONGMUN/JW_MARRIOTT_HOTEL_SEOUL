@@ -299,7 +299,6 @@ body {
 .main_visual .menu_depth .inner2 ul li a {}
 
 .main_visual .menu_depth .inner2 ul li a:hover {
-    font-weight: bold;
     color: hsla(0, 0%, 0%, 0.6);
 }
 
